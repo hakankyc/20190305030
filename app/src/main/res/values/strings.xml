@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Molly Car</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="signup">Sign Up</string>
+    <string name="admin">Admin</string>
+    <string name="phone">Phone Number</string>
+    <string name="enter_password">Enter Password For Admin</string>
+    <string name="okey">OK</string>
+    <string name="add_car">Add Car</string>
+    <string name="car_model">Car Model</string>
+    <string name="car_year">Car Year</string>
+    <string name="rented_cars">Rented Cars</string>
+    <string name="sign_out">Sign Out</string>
+</resources>

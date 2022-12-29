@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+    <LinearLayout
+        android:id="@+id/admin_car_row_linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="10dp"
+        android:background="@color/main1"
+
+        >
+        <ImageView
+            android:id="@+id/admin_car_row_image"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:scaleType="centerCrop"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:gravity="center"
+            >
+            <TextView
+                android:id="@+id/admin_car_row_model"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/car_model"
+                android:gravity="center"
+                android:textSize="25sp"
+                android:textColor="@color/main3"
+                />
+
+            <TextView
+                android:id="@+id/admin_car_row_year"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/car_year"
+                android:gravity="center"
+                android:textSize="25sp"
+                android:textColor="@color/main3"
+                android:layout_marginTop="20dp"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/white"
+        android:layout_marginTop="15dp"
+        android:layout_marginHorizontal="5dp"
+        />
+
+</LinearLayout>
